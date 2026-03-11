@@ -2688,6 +2688,9 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
           dashes/line-dasharray: 0,1,8,1;
           dashes/line-join: round;
         }
+        #tunnels {
+          line-dasharray: 5,3;
+        }
       }
     }
 
